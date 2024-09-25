@@ -1,14 +1,6 @@
 RewriteEngine On
 RewriteBase /DEMO/
-
-# Ignore direct requests to index.html
 RewriteRule ^index\.html$ - [L]
-
-# If the requested filename doesn't exist as a file
 RewriteCond %{REQUEST_FILENAME} !-f
-
-# If the requested filename doesn't exist as a directory
 RewriteCond %{REQUEST_FILENAME} !-d
-
-# Redirect all other requests to index.html
 RewriteRule . /DEMO/index.html [L]
