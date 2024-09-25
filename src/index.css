@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #282c34, #3a3f47);
+  padding: 60px 20px;
+
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.parallax-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: #282c34;
+  color: #fff;
+}
+
+.animated-text {
+  margin-top: 40px;
+  font-size: 1.5em;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

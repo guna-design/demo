@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background: linear-gradient(to right, #282c34, #3a3f47);
+    position: relative;
+    z-index: 1000;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust based on your logo size */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+
+  }
+  
+  .nav-links a {
+    
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+  
+  }
+  
